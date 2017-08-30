@@ -1,0 +1,30 @@
+{
+  "name": "rjs4u",
+  "version": "1.0.0",
+  "description": "reactjs samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run tscwatch\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tscwatch": "tsc -w",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "reactjs",
+    "typescript",
+    "flux"
+  ],
+  "author": "deepak rana",
+  "license": "ISC",
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.4.2"
+  }
+}
